@@ -1,0 +1,11 @@
+{{#if details.information}}
+<div>
+    <h2>Information</h2>
+    <dl>
+    {{#each details.information}}
+      <dt>{{@key}}</dt>
+      <dd>{{this}}</dd>
+    {{/each}}
+    </dl>
+</div>
+{{/if}}
